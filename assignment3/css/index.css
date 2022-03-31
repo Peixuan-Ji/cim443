@@ -1,0 +1,58 @@
+body{
+   padding-top: 3rem;
+   font-family: "Open Sans", Arial, sans-serif;
+}
+#navbarNavDropdown a{
+    font-size: .9rem; 
+}
+#navbarNavDropdown li{
+margin-left: 1rem;
+margin-right: 1rem;
+}
+.dropdown-item.active, .dropdown-item:active{
+    background-color: transparent;
+}
+.mtitle  span{
+    color: #7f191e;
+    border-bottom: 2px solid #7f191e;
+}
+.box{
+    background-color: #EEF6F8;
+    border-radius: 8px;
+    padding: 20px 10px;
+    margin-bottom: 2rem;
+}
+.box img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all .5s ease;
+}
+p{
+    font-size: 1rem;
+    line-height: 2;
+}
+footer{
+    background-color: #000;
+    font-size: .8rem;
+    line-height: 2;
+}
+.message{
+    height: 150px;
+}
+.fa{
+    color: #fff;
+   font-size: 1.3rem;
+   margin: 0 .5rem;
+}
+.card-img-top:hover{
+    transform: translateY(-10px);
+    transition: all .3s ease;
+}
+.underline{
+    text-decoration: underline;
+}
+#btn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
